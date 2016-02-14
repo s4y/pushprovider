@@ -96,8 +96,8 @@ func main() {
 		}
 
 		json, err := json.Marshal(struct {
-			Status   int              `json:"status"`
-			Response *json.RawMessage `json:"response,omitempty"`
+			Status int              `json:"status"`
+			Body   *json.RawMessage `json:"body,omitempty"`
 		}{resp.StatusCode, rawRes})
 
 		if err != nil {
