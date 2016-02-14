@@ -1,7 +1,5 @@
 package main
 
-// https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/APNsProviderAPI.html
-
 import (
 	"bufio"
 	"bytes"
